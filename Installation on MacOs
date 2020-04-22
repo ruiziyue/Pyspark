@@ -11,3 +11,6 @@ brew install apache-spark
 
 # Check your system is ready
 brew doctor
+
+# Install pyspark in Python3
+pip3 install pyspark
