@@ -14,3 +14,13 @@ brew doctor
 
 # Install pyspark in Python3
 pip3 install pyspark
+
+# .bash_profile
+export JAVA_HOME=/Library/java/JavaVirtualMachines/adoptopenjdk-8.jdk/contents/Home/
+export JRE_HOME=/Library/java/JavaVirtualMachines/openjdk-14.jdk/contents/Home/jre/
+export SPARK_HOME=/usr/local/Cellar/apache-spark/2.4.5/libexec
+export PATH=/usr/local/Cellar/apache-spark/2.4.5/bin:$PATH
+export PYSPARK_PYTHON=/usr/local/bin/python3
+export PYTHONPATH=$SPARK_HOME/python/:$PYTHONPATH
+export PYSPARK_DRIVER_PYTHON="jupyter"
+export PYSPARK_DRIVER_PYTHON_OPTS="notebook"
