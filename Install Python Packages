@@ -1,2 +1,5 @@
+ # Check installed packages
+ pip3 list --format columns
+ 
  pip3 install numpy
  pip3 install pandas
